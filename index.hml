@@ -1,0 +1,80 @@
+Username : admin
+Password : 123
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Login | Digital Marketing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+
+<div class="login-card">
+    <h2>Starting Business</h2>
+    <p>Digital Marketing Platform</p>
+
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+
+    <button onclick="login()">Login</button>
+    <p id="error"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Mie Level | Digital Marketing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="cekLogin()">
+
+<header>
+    <h1>🔥 MIE LEVEL MARKET 🔥</h1>
+    <p>Starting Business Marketing • Digital Strategy</p>
+    <button class="logout" onclick="logout()">Logout</button>
+</header>
+
+<section class="hero">
+    <h2>Bisnis Mie Level Berbasis Digital Marketing</h2>
+    <p>Murah • Pedas • Laris Manis</p>
+</section>
+
+<section class="produk-container">
+
+    <div class="produk">
+        <img src="https://images.unsplash.com/photo-1604908177522-4020d42b1b8c" alt="Mie Level 1">
+        <h3>Mie Level 1</h3>
+        <p>Pedas ringan</p>
+        <span>Rp 10.000</span>
+        <button>Beli</button>
+    </div>
+
+    <div class="produk">
+        <img src="https://images.unsplash.com/photo-1589308078059-fb6b21f3a2a8" alt="Mie Level 3">
+        <h3>Mie Level 3</h3>
+        <p>Pedas sedang</p>
+        <span>Rp 12.000</span>
+        <button>Beli</button>
+    </div>
+
+    <div class="produk">
+        <img src="https://images.unsplash.com/photo-1612929633738-8fe44f7ec841" alt="Mie Level 5">
+        <h3>Mie Level 5</h3>
+        <p>Pedas ekstrim</p>
+        <span>Rp 15.000</span>
+        <button>Beli</button>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2025 Starting Business Digital Marketing</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
